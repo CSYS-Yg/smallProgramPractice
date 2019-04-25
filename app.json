@@ -2,7 +2,8 @@
   "pages": [
     "pages/Home/Home",
     "pages/Content/Content",
-    "pages/Me/Me"
+    "pages/Me/Me",
+    "pages/Drag/Drge"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,19 +12,19 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "selectedColor":"#48afe4",
+    "selectedColor": "#48afe4",
     "list": [
       {
         "pagePath": "pages/Home/Home",
         "text": "首页",
         "iconPath": "images/HomeUnselected.png",
-        "selectedIconPath": "images/Homeselected.png"
+        "selectedIconPath": "images/HomeSelected.png"
       },
       {
         "pagePath": "pages/Content/Content",
         "text": "内容",
         "iconPath": "images/ContentUnselected.png",
-        "selectedIconPath": "images/Contentselected.png"
+        "selectedIconPath": "images/ContentSelected.png"
       },
       {
         "pagePath": "pages/Me/Me",

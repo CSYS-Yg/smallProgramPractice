@@ -1,2 +1,13 @@
-<!--pages/Home/Home.wxml-->
-<text>pages/Home/Home.wxml</text>
+<view>
+<button
+  type="default"
+  size="{{defaultSize}}"
+  loading="{{loading}}"
+  plain="{{plain}}"
+  disabled="{{disabled}}"
+  bindtap="default"
+  hover-class="other-button-hover"
+>
+  default
+</button>
+</view>
