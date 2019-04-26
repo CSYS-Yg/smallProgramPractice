@@ -62,5 +62,16 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  onClick() {
+    // wx.redirectTo({
+    //   url: '../Drag/Drag'
+    // })
+    wx.navigateTo({
+      url: '../Drag/Drag'
+    })
+    // wx.switchTab({
+    //   url: '../../pages/Content/Content'
+    // })
   }
 })

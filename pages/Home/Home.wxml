@@ -1,13 +1,14 @@
-<view>
-<button
-  type="default"
-  size="{{defaultSize}}"
-  loading="{{loading}}"
-  plain="{{plain}}"
-  disabled="{{disabled}}"
-  bindtap="default"
-  hover-class="other-button-hover"
->
-  default
-</button>
+<view class="">
+	<button
+	 type="default"
+	 size="12"
+	 loading="true"
+	 plain="true"
+	 disabled="{{disabled}}"
+	 bindtap="onClick"
+	 hover-class="other-button-hover"
+	>
+		跳转
+	</button>
 </view>
+
