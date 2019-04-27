@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "van-button": "../miniprogram_npm/vant-weapp/button/index",
+    "van-cell": "../miniprogram_npm/vant-weapp/cell/index",
+    "van-cell-group": "../miniprogram_npm/vant-weapp/cell-group/index"
+  }
 }
