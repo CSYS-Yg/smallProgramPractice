@@ -1,0 +1,48 @@
+/* pages/UserAuthorization/UserAuthorization.wxss */
+
+.userinfo {
+  display: flex;
+  width: 100%;
+  color: #fff;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.userinfo-view {
+  overflow: hidden;
+  flex: 1;
+}
+
+.userinfo-view>view {
+  display: flex;
+  line-height: 55rpx;
+  height: 55rpx;
+}
+
+.userinfo-view>view>text {
+  width: 100rpx;
+  color: rgb(169, 169, 169);
+  font-size: 28rpx;
+}
+
+.userinfo-view>view>open-data {
+  width: 400rpx;
+  font-size: 28rpx;
+  color: #333;
+  word-wrap: break-word;
+  /* overflow:hidden; *//* text-overflow:ellipsis; *//* white-space: nowrap; */
+}
+
+.content {
+  text-align: center;
+  padding: 10rpx 50rpx;
+}

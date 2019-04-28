@@ -1,25 +1,24 @@
-<view class="sentione">
-	<view class="content">
-		<button
-		 class="content-button"
-		 type="default"
-		 size="{{12}}"
-		 loading="{{false}}"
-		 plain="{{false}}"
-		 disabled="{{disabled}}"
-		 bindtap="onClick"
-		>
-			跳转
-		</button>
-		<!-- <van-button type="primary">按钮</van-button> -->
-	</view>
-	<view class="content" hover-class="other-button-hover">点击态</view>
-	<van-cell title="单元格" value="内容" size="large" />
-	<van-cell
-	 title="单元格"
-	 value="内容"
-	 size="large"
-	 label="描述信息"
-	/>
+<view class="content" hover-class="other-button-hover">
+	<button
+	 class="content-button"
+	 type="default"
+	 size="{{12}}"
+	 loading="{{false}}"
+	 plain="{{false}}"
+	 bindtap="onClickDrag"
+	>
+		跳转
+	</button>
+	<!-- <van-button type="primary">按钮</van-button> -->
 </view>
+<view class="content">
+	<van-button bind:click="onClickUser" type="default">去授权</van-button>
+</view>
+<van-cell title="单元格" value="内容" size="large" />
+<van-cell
+ title="单元格"
+ value="内容"
+ size="large"
+ label="描述信息"
+/>
 

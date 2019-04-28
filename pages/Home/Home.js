@@ -63,7 +63,7 @@ Page({
   onShareAppMessage: function () {
 
   },
-  onClick() {
+  onClickDrag() {
     // wx.redirectTo({
     //   url: '../Drag/Drag'
     // })
@@ -73,5 +73,10 @@ Page({
     // wx.switchTab({
     //   url: '../../pages/Content/Content'
     // })
+  },
+  onClickUser() {
+    wx.navigateTo({
+      url: '../UserAuthorization/UserAuthorization'
+    })
   }
 })

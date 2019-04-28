@@ -3,7 +3,8 @@
     "pages/Home/Home",
     "pages/Content/Content",
     "pages/Me/Me",
-    "pages/Drag/Drag"
+    "pages/Drag/Drag",
+    "pages/UserAuthorization/UserAuthorization"
   ],
   "window": {
     "backgroundTextStyle": "light",

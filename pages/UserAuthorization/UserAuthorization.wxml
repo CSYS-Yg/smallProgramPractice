@@ -1,0 +1,36 @@
+<!--pages/UserAuthorization/UserAuthorization.wxml-->
+<!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data type="userAvatarUrl" />
+  </view>
+  <view class="userinfo-view">
+    <view>
+      <text>用户名</text>
+      <open-data type="userNickName" />
+    </view>
+    <view>
+      <text>性别</text>
+      <open-data type="userGender" />
+    </view>
+    <view>
+      <text>国家</text>
+      <open-data type="userCountry" />
+    </view>
+    <view>
+      <text>省城</text>
+      <open-data type="userProvince" />
+    </view>
+    <view>
+      <text>城市</text>
+      <open-data type="userCity" />
+    </view>
+  </view>
+</view>
+<!-- 需要使用 button 来授权登录 -->
+<view class='content'>
+  <button wx:if="{{canIUse}}" size='mini' open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+    授权登录
+  </button>
+  <view wx:else>请升级微信版本</view>
+</view>
