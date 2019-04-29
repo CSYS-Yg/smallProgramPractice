@@ -2,7 +2,10 @@
 <!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
 <view class="userinfo">
   <view class="userinfo-avatar">
-    <open-data type="userAvatarUrl" />
+    <v-button wx:if="{{!authorized}}" open-type="getUserInfo" bind:getuserinfo="onGetUserInfo" class="avatar-position">
+      <image slot="img" class="avatar" src="/images/UserAuthorization/my.png"></image>
+    </v-button>
+    <!-- <open-data type="userAvatarUrl" /> -->
   </view>
   <view class="userinfo-view">
     <view>

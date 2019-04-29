@@ -1,6 +1,7 @@
 // pages/UserAuthorization/UserAuthorization.js
 Page({
   data: {
+    authorized: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   onLoad() {

@@ -3,8 +3,8 @@
     "pages/Home/Home",
     "pages/Content/Content",
     "pages/Me/Me",
-    "pages/Drag/Drag",
-    "pages/UserAuthorization/UserAuthorization"
+    "pages/UserAuthorization/UserAuthorization",
+    "pages/Drag/Drag"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,20 +18,20 @@
       {
         "pagePath": "pages/Home/Home",
         "text": "首页",
-        "iconPath": "images/HomeUnselected.png",
-        "selectedIconPath": "images/HomeSelected.png"
+        "iconPath": "images/Home/HomeUnselected.png",
+        "selectedIconPath": "images/Home/HomeSelected.png"
       },
       {
         "pagePath": "pages/Content/Content",
         "text": "内容",
-        "iconPath": "images/ContentUnselected.png",
-        "selectedIconPath": "images/ContentSelected.png"
+        "iconPath": "images/Home/ContentUnselected.png",
+        "selectedIconPath": "images/Home/ContentSelected.png"
       },
       {
         "pagePath": "pages/Me/Me",
         "text": "ME",
-        "iconPath": "images/MeUnselected.png",
-        "selectedIconPath": "images/MeSelected.png"
+        "iconPath": "images/Home/MeUnselected.png",
+        "selectedIconPath": "images/Home/MeSelected.png"
       }
     ]
   },
