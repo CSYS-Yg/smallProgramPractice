@@ -23,7 +23,7 @@
       },
       {
         "pagePath": "pages/Content/Content",
-        "text": "内容",
+        "text": "组件",
         "iconPath": "images/Home/ContentUnselected.png",
         "selectedIconPath": "images/Home/ContentSelected.png"
       },

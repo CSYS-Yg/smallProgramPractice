@@ -1,6 +1,6 @@
-ApplicationApplet
+smallProgramPractice
 ===========================
-该项目主要用于测试和展示小程序组件、API 等系列应用及相关解释文档。
+该项目主要用于测试小程序 API 和封装小程序公用组件的展示与使用说明。
 
 ****
 	
@@ -9,14 +9,14 @@ ApplicationApplet
 |E-mail|hello.yxhome@gmail.com
 
 ****
-[项目地址](https://github.com/YxxZou/ApplicationApplet)
+[项目地址](https://github.com/YxxZou/smallProgramPractice)
 
-[更新日志](https://github.com/YxxZou/ApplicationApplet/commits/master)
+[更新日志](https://github.com/YxxZou/smallProgramPractice/commits/master)
 
 ## 安装步骤 ##
 
 	// 把该小程序下载到本地
-	git clone https://github.com/YxxZou/ApplicationApplet.git     
+	git clone https://github.com/YxxZou/smallProgramPractice.git    
 	// 下载小程序开发者工具
 	https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 	// 在开发中工具中导入该项目       
