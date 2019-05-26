@@ -21,5 +21,4 @@
  size="large"
  label="描述信息"
 />
-<van-picker columns="{{ columns }}" bind:change="onChange" />
 

@@ -4,17 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    value: '',
-    columns: [{
-        values: Object.keys(this.data.citys),
-        className: 'column1'
-      },
-      {
-        values: this.data.citys['浙江'],
-        className: 'column2',
-        defaultIndex: 2
-      }
-    ]
+    value: ''
   },
 
   /**
