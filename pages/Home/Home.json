@@ -2,6 +2,8 @@
   "usingComponents": {
     "van-button": "../miniprogram_npm/vant-weapp/button/index",
     "van-cell": "../miniprogram_npm/vant-weapp/cell/index",
-    "van-cell-group": "../miniprogram_npm/vant-weapp/cell-group/index"
+    "van-cell-group": "../miniprogram_npm/vant-weapp/cell-group/index",
+    "van-field": "../miniprogram_npm/vant-weapp/field/index",
+    "van-picker": "../miniprogram_npm/vant-weapp/picker/index"
   }
 }

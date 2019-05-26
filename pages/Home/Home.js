@@ -1,11 +1,20 @@
 // pages/Home/Home.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    value: '',
+    columns: [{
+        values: Object.keys(this.data.citys),
+        className: 'column1'
+      },
+      {
+        values: this.data.citys['浙江'],
+        className: 'column2',
+        defaultIndex: 2
+      }
+    ]
   },
 
   /**
@@ -29,6 +38,10 @@ Page({
 
   },
 
+  onChange(event) {
+    // event.detail 为当前输入的值
+    console.log(event.detail);
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */
