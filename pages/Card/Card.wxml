@@ -1,0 +1,28 @@
+<!-- pages/Card/Card.wxml -->
+<!-- 图片轮播 -->
+<view class="memberPage">
+	<swiper
+	 class="memberSwiper"
+	 indicator-dots="{{fasle}}"
+	 autoplay="{{false}}"
+	 previous-margin="{{'40rpx'}}"
+	 next-margin="{{'40rpx'}}"
+	 circular="{{true}}"
+	 bindchange="swiperChange"
+	 current='1'
+	>
+		<block wx:for="{{images}}" wx:key="{{index}}">
+			<swiper-item>
+				<view class="offerCardImageBox {{swiperIndex==index?'active':''}}">
+					<image class="offerCardImage" src="{{activityDetail.themePoster}}" />
+				</view>
+				<!-- 图片显示详情 -->
+				<!-- <view class="offerCardTitle">Latest Activity</view>
+						<view class="offerCardBrand">LOFT欧莱&BasicLife</view> -->
+				<!-- <view class="offerCardName">夏日完美聚会</view>
+					<view class="offerCardTime">2019/03/12 12:00 - 2019/03/20 12:00</view> -->
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+

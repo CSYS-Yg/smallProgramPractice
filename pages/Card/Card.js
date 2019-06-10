@@ -1,10 +1,12 @@
-// pages/Home/Home.js
+// pages/Card/Card.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    value: ''
+    images: ['1', '2', '3'], // 轮播图片
+    swiperIndex: 1, // 当前展示卡片
   },
 
   /**
@@ -28,10 +30,6 @@ Page({
 
   },
 
-  onChange(event) {
-    // event.detail 为当前输入的值
-    console.log(event.detail);
-  },
   /**
    * 生命周期函数--监听页面隐藏
    */
@@ -66,31 +64,10 @@ Page({
   onShareAppMessage: function () {
 
   },
-  onClickDrag() {
-    // wx.redirectTo({
-    //   url: '../Drag/Drag'
-    // })
-    wx.navigateTo({
-      url: '../Drag/Drag'
+  // 卡片轮播触发事件
+  swiperChange(e) {
+    this.setData({
+      swiperIndex: e.detail.current
     })
-    // wx.switchTab({
-    //   url: '../../pages/Content/Content'
-    // })
   },
-  onClickCard() {
-    // wx.redirectTo({
-    //   url: '../Drag/Drag'
-    // })
-    wx.navigateTo({
-      url: '../Card/Card'
-    })
-    // wx.switchTab({
-    //   url: '../../pages/Content/Content'
-    // })
-  },
-  onClickUser() {
-    wx.navigateTo({
-      url: '../UserAuthorization/UserAuthorization'
-    })
-  }
 })

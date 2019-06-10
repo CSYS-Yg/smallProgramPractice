@@ -4,7 +4,8 @@
     "pages/Content/Content",
     "pages/Me/Me",
     "pages/UserAuthorization/UserAuthorization",
-    "pages/Drag/Drag"
+    "pages/Drag/Drag",
+    "pages/Card/Card"
   ],
   "window": {
     "backgroundTextStyle": "light",
