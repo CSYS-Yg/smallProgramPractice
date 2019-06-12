@@ -25,4 +25,5 @@
 <view class="content">
 	<van-button bind:click="onClickUser" type="default">去授权</van-button>
 </view>
+<bottomLine/>
 

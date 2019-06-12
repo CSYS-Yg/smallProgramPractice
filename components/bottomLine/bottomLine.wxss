@@ -1,0 +1,15 @@
+/* components/bottomLine/bottomLine.wxss */
+
+/* 底线 */
+
+.bottomLine {
+  text-align: center;
+  padding: 20rpx 0rpx;
+  height: 33rpx;
+  line-height: 33rpx;
+  font-weight: 400;
+  font-size:24rpx;
+  font-family: PingFangSC-Regular;
+  color: #cccccc;
+  width: 100%;
+}

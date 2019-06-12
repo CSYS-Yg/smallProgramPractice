@@ -1,0 +1,6 @@
+<!--components/bottomLine/bottomLine.wxml-->
+<!-- Created by Yx_Zou on 2019/6/13. -->
+<view class='bottomLine'>
+	<text>—— 我就是底线 ——</text>
+</view>
+
