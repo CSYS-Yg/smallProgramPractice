@@ -16,7 +16,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.6",
 	"appid": "wx9fcea8eaea939feb",
-	"projectname": "ApplicationApplet",
+	"projectname": "smallProgramPractice",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -44,9 +44,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "测试",
 					"pathName": "pages/Card/Card",
+					"query": "",
 					"scene": null
 				}
 			]

@@ -14,13 +14,13 @@
 		<block wx:for="{{images}}" wx:key="{{index}}">
 			<swiper-item>
 				<view class="offerCardImageBox {{swiperIndex==index?'active':''}}">
-					<image class="offerCardImage" src="{{activityDetail.themePoster}}" />
+					<image class="offerCardImage" src="https://file.woxshare.com/uploadfile/Pictures/2019/6/12/6b057c08b0784faab34f5f822a392534.jpg" />
 				</view>
 				<!-- 图片显示详情 -->
-				<!-- <view class="offerCardTitle">Latest Activity</view>
-						<view class="offerCardBrand">LOFT欧莱&BasicLife</view> -->
-				<!-- <view class="offerCardName">夏日完美聚会</view>
-					<view class="offerCardTime">2019/03/12 12:00 - 2019/03/20 12:00</view> -->
+				<view class="offerCardTitle">Latest Activity</view>
+				<view class="offerCardBrand">LOFT欧莱&BasicLife</view>
+				<view class="offerCardName">夏日完美聚会</view>
+				<view class="offerCardTime">2019/03/12 12:00 - 2019/03/20 12:00</view>
 			</swiper-item>
 		</block>
 	</swiper>

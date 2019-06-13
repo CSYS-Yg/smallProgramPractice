@@ -17,6 +17,18 @@
 	 size="{{12}}"
 	 loading="{{false}}"
 	 plain="{{false}}"
+	 bindtap="onClickDrag"
+	>
+		跳转
+	</button>
+</view>
+<view class="content" hover-class="other-button-hover">
+	<button
+	 class="content-button"
+	 type="default"
+	 size="{{12}}"
+	 loading="{{false}}"
+	 plain="{{false}}"
 	 bindtap="onClickCard"
 	>
 		卡片轮播

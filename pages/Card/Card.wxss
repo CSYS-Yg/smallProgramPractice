@@ -1,34 +1,87 @@
 /* pages/Card/Card.wxss */
+
 .memberPage {
-    margin: 40rpx 0rpx 40rpx 0rpx;
+  margin: 40rpx 0rpx 40rpx 0rpx;
 }
 
 /* 图片卡片轮播效果 */
+
 .memberSwiper {
-    height: 388rpx;
+  height: 388rpx;
 }
 
 .offerCardImageBox {
-    box-sizing: border-box;
-    margin: 30rpx 10rpx;
-    box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.3);
-    width: 654rpx;
-    height: 328rpx;
-    /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)); */
-    border-radius: 16rpx;
+  box-sizing: border-box;
+  margin: 30rpx 10rpx;
+  box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.3);
+  width: 654rpx;
+  height: 328rpx;
+  /* background-image:url(''); */
+  /* background-repeat:repeat-x; */
+  /* background-repeat:no-repeat; */
+  /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)); */
+  border-radius: 16rpx;
 }
 
 .active {
-    transition-duration: 0.5s;
-    margin: 10rpx 10rpx;
-    height: 368rpx;
+  transition-duration: 0.5s;
+  margin: 10rpx 10rpx;
+  height: 368rpx;
 }
 
 .offerCardImage {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: var(--color-bg-F);
-    z-index: -1;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 16rpx;
+  z-index: -1;
+}
+
+.offerCardTitle {
+  position: absolute;
+  left: 40rpx;
+  top: 164rpx;
+  height: 18rpx;
+  font-size: 18rpx;
+  font-family: SFProText-Medium;
+  font-weight: 500;
+  color: #FFFDFC;
+  line-height: 18rpx;
+}
+
+.offerCardBrand {
+  position: absolute;
+  left: 40rpx;
+  top: 188rpx;
+  height: 72rpx;
+  font-size: 50rpx;
+  font-family: SFProDisplay-Heavy;
+  font-weight: 800;
+  color: #FFFDFC;
+  line-height: 72rpx;
+}
+
+.offerCardName {
+  position: absolute;
+  left: 40rpx;
+  top: 244rpx;
+  height: 72rpx;
+  font-size: 50rpx;
+  font-family: PingFang-SC-Semibold;
+  font-weight: 600;
+  color: #FFFDFC;
+  line-height: 72rpx;
+}
+
+.offerCardTime {
+  position: absolute;
+  left: 40rpx;
+  bottom: 20rpx;
+  height: 43rpx;
+  font-size: 28rpx;
+  font-family: AlibabaSans-Regular;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 43rpx;
 }

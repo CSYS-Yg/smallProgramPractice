@@ -4,7 +4,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    value: ''
+    value: '',
+    bottomLine: false
   },
 
   /**
@@ -60,11 +61,22 @@ Page({
 
   },
 
+
   /**
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+   * 页面滚动监控
+   */
+  onPageScroll: function (e) {
+    console.log(e)
+    this.setData({
+      bottomLine: true
+    })
   },
   onClickDrag() {
     // wx.redirectTo({

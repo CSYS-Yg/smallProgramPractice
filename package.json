@@ -1,7 +1,7 @@
 {
-  "name": "applicationapplet",
+  "name": "smallprogrampractice",
   "version": "1.0.0",
-  "description": "ApplicationApplet\r ===========================\r 该项目主要用于测试和展示小程序组件、API 等系列应用及相关解释文档。",
+  "description": "smallProgramPractice\r ===========================\r 该项目主要用于测试和展示小程序组件、API 等系列应用及相关解释文档。",
   "main": "app.js",
   "dependencies": {
     "vant-weapp": "^0.5.11"
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YxxZou/ApplicationApplet.git"
+    "url": "git+https://github.com/YxxZou/smallProgramPractice.git"
   },
   "author": "Yx_Zou",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YxxZou/ApplicationApplet/issues"
+    "url": "https://github.com/YxxZou/smallProgramPractice/issues"
   },
-  "homepage": "https://github.com/YxxZou/ApplicationApplet#readme"
+  "homepage": "https://github.com/YxxZou/smallProgramPractice#readme"
 }
