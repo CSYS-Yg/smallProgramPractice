@@ -27,10 +27,10 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    wx.createSelectorQuery().selectAll('page').boundingClientRect(function (rect) {
-      console.log(rect[0].height)
-      console.log(rect[0].width)
-    }).exec()  
+    // wx.createSelectorQuery().selectAll('page').boundingClientRect(function (rect) {
+    //   console.log(rect[0].height)
+    //   console.log(rect[0].width)
+    // }).exec()  
   },
 
   /**
