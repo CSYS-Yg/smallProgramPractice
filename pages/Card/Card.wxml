@@ -1,5 +1,6 @@
 <!-- pages/Card/Card.wxml -->
 <!-- 图片轮播 -->
+
 <view class="memberPage">
 	<swiper
 	 class="memberSwiper"
@@ -25,5 +26,13 @@
 		</block>
 	</swiper>
 </view>
+<view class="cradPage">
+	<view class="cardCoupon">
+		<image class='useImg' src='./image/coupon_label_use.png' />
+		卡卷
+	</view>
+</view>
+
+<!-- 底线 -->
 <bottomLine/>
 
