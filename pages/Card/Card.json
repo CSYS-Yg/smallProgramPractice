@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "bottomLine": "../components/bottomLine/bottomLine"
+  }
 }
