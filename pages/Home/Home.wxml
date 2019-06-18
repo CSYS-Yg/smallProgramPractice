@@ -5,7 +5,8 @@
 	 size="{{12}}"
 	 loading="{{false}}"
 	 plain="{{false}}"
-	 bindtap="onClickDrag"
+	 bindtap="goto"
+	 data-key="Drag"
 	>
 		跳转
 	</button>
@@ -16,10 +17,10 @@
 	 type="default"
 	 size="{{12}}"
 	 loading="{{false}}"
-	 plain="{{false}}"
-	 bindtap="onClickDrag"
+	 bindtap="goto"
+	 data-key="richText"
 	>
-		跳转
+		富文本
 	</button>
 </view>
 <view class="content" hover-class="other-button-hover">
@@ -28,14 +29,14 @@
 	 type="default"
 	 size="{{12}}"
 	 loading="{{false}}"
-	 plain="{{false}}"
-	 bindtap="onClickCard"
+	 bindtap="goto"
+	 data-key="Card"
 	>
 		卡片轮播
 	</button>
 </view>
 <view class="content">
-	<van-button bind:click="onClickUser" type="default">去授权</van-button>
+	<van-button bindtap="goto" data-key="UserAuthorization" type="default">去授权</van-button>
 </view>
 <bottomLine/>
 

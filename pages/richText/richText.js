@@ -1,12 +1,11 @@
-// pages/Home/Home.js
-const util = require('../../utils/util.js');
+// pages/richText/richText.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    value: '',
-    bottomLine: false
+
   },
 
   /**
@@ -30,10 +29,6 @@ Page({
 
   },
 
-  onChange(event) {
-    // event.detail 为当前输入的值
-    console.log(event.detail);
-  },
   /**
    * 生命周期函数--监听页面隐藏
    */
@@ -62,36 +57,10 @@ Page({
 
   },
 
-
   /**
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
 
-  },
-
-  /**
-   * 页面滚动监控
-   */
-  onPageScroll: function (e) {
-    console.log(e)
-    this.setData({
-      bottomLine: true
-    })
-  },
-  goto(e) {
-    console.log(e)
-    let key=e.target.dataset.key
-    let params={
-    }
-    util.goto(key,params)
-    // wx.switchTab({
-    //   url: '../../pages/Content/Content'
-    // })
-  },
-  onClickUser() {
-    wx.navigateTo({
-      url: '../UserAuthorization/UserAuthorization'
-    })
   }
 })
