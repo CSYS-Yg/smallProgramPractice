@@ -1,0 +1,28 @@
+<!--components/orderStatus/orderStatus.wxml-->
+<!-- Created by Yx_Zou on 2019/5/17. -->
+<view class="comm_orderStatusBox">
+	<view class="cancelBox">
+		<view class="{{typeColor?typeColor:_type[typeId].typeColor}} iconfont {{typeIcon?typeIcon:_type[typeId].typeIcon}}">
+			<text class="paymentType">{{typeName?typeName:_type[typeId].typeName}}</text>
+		</view>
+		<view
+		 wx:if="{{_type[typeId].typeCancel}}"
+		 bindtap="setStatusId"
+		 data-statusId="{{_type[typeId].typeCancel}}"
+		 class="cancel"
+		>
+			取消报名
+		</view>
+	</view>
+	<view wx:if="{{typeTime || typePromptTime}}" class="paymentPrompt">
+		{{typeFront?typeFront:_type[typeId].typeFront}}
+		<text class="paymentTime">{{_typeTime||typePromptTime}}</text>
+		{{typeRear?typeRear:_type[typeId].typeRear}}
+	</view>
+	<view wx:else class="paymentPrompt">
+		{{typePrompt?typePrompt:_type[typeId].typePrompt}}
+		<view wx:if="{{typeTradingTime}}">{{typeTradingTime}}</view>
+	</view>
+	<slot/>
+</view>
+

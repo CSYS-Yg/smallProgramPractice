@@ -1,0 +1,83 @@
+/* components/orderStatus/orderStatus.wxss */
+.comm_orderStatusBox {
+    margin: 10rpx 40rpx;
+    padding: 40rpx;
+    background: var(--color-bg-A);
+    box-shadow: 0rpx 0rpx 20rpx 0rpx var(--color-shadow-B);
+}
+
+.cancelBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150rpx;
+    height: 50rpx;
+    border-radius: 4rpx;
+    font-size: 24rpx;
+    border: 2rpx solid var(--color-line-N);
+    font-family: PingFang-SC-Regular;
+    font-weight: 400;
+    color: var(--color-Z);
+    line-height: 26rpx;
+}
+
+.paymentType {
+    padding-left: 20rpx;
+    height: 50rpx;
+    font-size: 36rpx;
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    line-height: 50rpx;
+}
+
+.paymentPrompt {
+    padding-top: 20rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: var(--color-E);
+    line-height: 44rpx;
+}
+
+.paymentTime {
+    font-family: PingFangSC-Medium;
+    color: var(--color-H);
+    font-size: 28rpx;
+}
+
+.QRimage {
+    width: 356rpx;
+    height: 356rpx;
+}
+
+/* 颜色 */
+.paymentIconYellow {
+    font-size: 36rpx;
+    color: #FFCC00;
+}
+
+.paymentIconGray {
+    font-size: 36rpx;
+    color: #cccccc;
+}
+
+.paymentIconRed {
+    font-size: 36rpx;
+    color: #FE514B;
+}
+
+.paymentIconBlue {
+    font-size: 36rpx;
+    color: #007AFF;
+}
+
+.paymentIconGreen {
+    font-size: 36rpx;
+    color: #4CD964;
+}
