@@ -1,1 +1,3 @@
-<!--pages/Content/Content.wxml-->
+<!-- pages/Content/Content.wxml -->
+<orderStatus typeId="1" />
+

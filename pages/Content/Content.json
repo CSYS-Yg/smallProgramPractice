@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "组件导航",
-  "usingComponents": {}
+  "usingComponents": {
+    "orderStatus":"/components/orderStatus/orderStatus"
+  }
 }

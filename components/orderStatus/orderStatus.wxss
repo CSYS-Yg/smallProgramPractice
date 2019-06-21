@@ -1,9 +1,10 @@
 /* components/orderStatus/orderStatus.wxss */
+@import '/iconfont.wxss';
 .comm_orderStatusBox {
     margin: 10rpx 40rpx;
     padding: 40rpx;
-    background: var(--color-bg-A);
-    box-shadow: 0rpx 0rpx 20rpx 0rpx var(--color-shadow-B);
+    background: #ffffff;
+    box-shadow: 0rpx 0rpx 20rpx 0rpx #EFEFEF;
 }
 
 .cancelBox {
@@ -20,10 +21,10 @@
     height: 50rpx;
     border-radius: 4rpx;
     font-size: 24rpx;
-    border: 2rpx solid var(--color-line-N);
+    border: 2rpx solid #fe514b;
     font-family: PingFang-SC-Regular;
     font-weight: 400;
-    color: var(--color-Z);
+    color: #FE514B;
     line-height: 26rpx;
 }
 
@@ -41,13 +42,13 @@
     font-size: 28rpx;
     font-family: PingFangSC-Regular;
     font-weight: 400;
-    color: var(--color-E);
+    color: #999999;
     line-height: 44rpx;
 }
 
 .paymentTime {
     font-family: PingFangSC-Medium;
-    color: var(--color-H);
+    color: #111111;
     font-size: 28rpx;
 }
 

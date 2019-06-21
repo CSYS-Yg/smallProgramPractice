@@ -105,7 +105,7 @@ Component({
       {
         "typeId": 1,
         "typeName": "已完成",
-        "typeIcon": "icon_order_icon_succeed_def",
+        "typeIcon": "iconorder_icon_succeed_def",
         "typeColor": "paymentIconGreen",
         "typePrompt": "订单已完成，祝您生活愉快～",
         "typeFront": "",
