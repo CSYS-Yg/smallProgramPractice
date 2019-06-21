@@ -23,6 +23,9 @@
 		{{typePrompt?typePrompt:_type[typeId].typePrompt}}
 		<view wx:if="{{typeTradingTime}}">{{typeTradingTime}}</view>
 	</view>
+	<view class="line">
+		<image class="lineImage" src="./image/line.png" />
+	</view>
 	<slot/>
 </view>
 
