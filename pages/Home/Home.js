@@ -74,11 +74,12 @@ Page({
    * 页面滚动监控
    */
   onPageScroll: function (e) {
-    console.log(e)
+    // console.log(e)
     this.setData({
       bottomLine: true
     })
   },
+  // 页面路由跳转
   goto(e) {
     console.log(e)
     let key=e.target.dataset.key
@@ -89,9 +90,4 @@ Page({
     //   url: '../../pages/Content/Content'
     // })
   },
-  onClickUser() {
-    wx.navigateTo({
-      url: '../UserAuthorization/UserAuthorization'
-    })
-  }
 })

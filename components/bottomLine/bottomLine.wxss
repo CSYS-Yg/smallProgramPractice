@@ -3,7 +3,7 @@
 /* 底线 */
 
 .bottomLine {
-  position: absolute;
+  /* position: absolute; */
   /* position: sticky; */
   bottom: 0rpx;
   text-align: center;
